@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Markdown Wrapper",
+  "description": "This extension wraps the selected text in a markdown link with the contents of the clipboard",
+  "version": "0.1",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent" : true
+  },
+  "permissions": [
+    "activeTab",
+    "background",
+    "clipboardRead"
+  ],
+  "commands": {
+    "toggle-feature-foo": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+V",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Toggle feature foo"
+    }
+  }
+}
