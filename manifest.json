@@ -38,5 +38,12 @@
         "contentscript.js"
       ]
     }
-  ]
+  ],
+
+  "icons": {
+    "19": "assets/icon19.png",
+    "38": "assets/icon38.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
 }
