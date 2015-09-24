@@ -1,4 +1,5 @@
 {
+
   "manifest_version": 2,
   "name": "Markdown Wrapper",
   "description": "This extension wraps the selected text in a markdown link with the contents of the clipboard",
@@ -7,13 +8,16 @@
     "scripts": [
       "background.js"
     ],
-    "persistent" : true
+    "persistent": true
   },
+
   "permissions": [
     "activeTab",
+    "tabs", //remove
     "background",
     "clipboardRead"
   ],
+
   "commands": {
     "toggle-feature-foo": {
       "suggested_key": {
@@ -22,5 +26,17 @@
       },
       "description": "Toggle feature foo"
     }
-  }
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "contentscript.js"
+      ]
+    }
+  ]
 }
