@@ -13,8 +13,6 @@
 
   "permissions": [
     "activeTab",
-    "tabs", //remove
-    "background",
     "clipboardRead"
   ],
 
@@ -22,7 +20,7 @@
     "toggle-feature-foo": {
       "suggested_key": {
         "default": "Ctrl+Shift+V",
-        "mac": "Command+Shift+Y"
+        "mac": "Command+Shift+V"
       },
       "description": "Toggle feature foo"
     }
