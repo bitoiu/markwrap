@@ -7,6 +7,7 @@ Chrome Extension that wraps the selected text in a markdown link with the conten
 1. Copy the link
 2. Select the text (optional)
 3. Click `Ctrl+Shift+V` and the markdown link will be created in place.
+If  `Ctrl+Shift+V` does not work, try `Command+Shift+V`.
 
 ![example](https://github.com/bitoiu/markwrap/blob/master/assets/example.gif)
 
